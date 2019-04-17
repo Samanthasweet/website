@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>transforms page</title>
+  <style>
+    body {
+      background-color: #30dd81;
+    }
+
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: #f98eff;
+      margin: 1rem;
+    }
+
+    #box1 {transition:transform 1s; border-radius 1s; background-color 2s;}
+
+    #box1:hover {transform:rotate(45deg);
+    border-radius: 20%;
+  background-color:#56acf7;}
+
+    #box2 {transition: transform 3s;}
+
+    #box2:hover {transform:scale(2); border-radius:50%;
+    background-color:#567cf7; }
+
+    #box3 {transition: transform 2s; }
+
+    #box3:hover {transform: translate(100px);border-radius:20%; background-color:#2758f7; }
+
+    #box4 {transition: transform 2s;}
+
+    #box4:hover {transform:skewX(50deg);border-radius:50%;background-color:#4fd5ff; }
+
+    #box5 {transition: transform 2s;}
+
+    #box5:hover {transform:skewY(50deg);border-radius:20%;background-color:#7954ff; }
+
+    #box6 {transition: transform 2s;}
+
+    #box6:hover {transform:matrix(1,-0.3,0,1,0,0); border-radius:50%;background-color:#711ac9; }
+
+    #box7 {transition-property:all;}
+
+    #box7:hover {background-image: url("cat.png");
+  background-position: center; border-radius:20%; }
+
+    #box8 {}
+
+    #box8:hover {background-image: url("catchair.png");background-position:center;border-radius:50%;      }
+  </style>
+</head>
+
+<body>
+  <div id="box1"> </div>
+  <div id="box2"> </div>
+  <div id="box3"> </div>
+  <div id="box4"> </div>
+  <div id="box5"> </div>
+  <div id="box6"> </div>
+  <div id="box7"> </div>
+  <div id="box8"> </div>
+</body>
+
+</html>

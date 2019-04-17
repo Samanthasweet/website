@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+body{
+background-color:purple;
+color:
+}
+p{
+position:relative;
+left:33px;
+top:35px;
+
+}
+ .one{
+ width:100px;
+ height:100px;
+ background-color:#a521ed;
+ animation-name:a;
+ animation-duration:6s;
+ animation-iteration-count:infinite;
+ animation-direction:alernate;
+ margin-right:auto;
+ margin-left:auto;}
+
+ .two{
+ width: 100px;
+ height: 100px;
+ border-radius: 49% 51% 100% 0% / 100% 100% 0% 0%;
+ position: relative;
+ background-color: red;
+ animation-name: b;
+ animation-duration: 4s;
+ animation-iteration-count:infinite;
+ }
+ .three{
+ animation-name: c;
+ width: 100px;
+ height: 100px;
+ background-color: black;
+ border-radius:50%;
+ animation-iteration-count:infinite;
+ animation-duration:5s;
+ animation-direction: normal;
+ margin-right:;
+ margin-left: auto;
+ position: relative;
+
+ }
+
+
+@keyframes a {
+0%{background-color:#ff006e;
+transform:scale(.5);
+border-radius:50%;}
+ 25%{background-color:#ffee5e;
+ transform:scale(1.5);
+ border-radius: 0% 100% 0% 100% / 100% 0% 100% 0%;}
+50%{background-color:#00ffa5;
+transform:scale(1.5);
+border-radius:0% 100% 0% 100% / 100% 0% 100% 0%;}
+ 100%{background-color:#9b66ff;
+ transform:scale(.5);
+ border-radius:50%;}}
+
+@keyframes b {
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}}
+
+@keyframes c {
+0%   {background-color:red; right:0px; top:0px; }
+25%  {background-color:orange; right:200px; top:0px;}
+50%  {background-color:yellow; right:200px; top:200px;}
+75%  {background-color:green; right:0px; top:200px;}
+100% {background-color:blue; right:0px; top:0px;}
+}
+
+
+      </style>
+  </head>
+  <body>
+    <div class="one"><p>(>0<)</div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </body>
+</html>
