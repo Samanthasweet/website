@@ -1,10 +1,79 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+body{
+background-color: orange;
+}
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
 
-  </body>
-</html>
+  .span-col-2 {
+    grid-column: span 2 / auto;
+  }
+
+  .span-col-3 {
+    grid-column: span 3 / auto;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    #title {
+      background: red;
+      font-size:150px;
+      text-align:auto;
+      width:1000px;
+      height:200px;
+    }
+
+    article {
+      background: yellow;
+    }
+
+    footer {
+      background: green;
+
+    }
+
+    img {
+      width:300px;
+      height:350px;
+      transform: rotate(90deg);
+      border:solid black 10px;
+    }
+
+    .grid {
+      width: 80%;
+      margin: 0 auto;
+    }
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  nav li {
+    float: left;
+    display: inline;
+  }
+
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  nav li a:hover {
+    background-color: #111;
+  }
+#eat{
+  background-color:pink;
+}
+#img2{
+
+}
+    }
