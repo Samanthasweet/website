@@ -1,5 +1,6 @@
+* {box-sizing: border-box;}
 body{
-background-color: orange;
+background-color: #c85bff;
 }
   .grid {
     display: grid;
@@ -18,7 +19,7 @@ background-color: orange;
   @media only screen and (min-width: 768px) {
 
     #title {
-      background: red;
+      background: #ea2a2a;
       font-size:150px;
       text-align:auto;
       width:1000px;
@@ -26,19 +27,23 @@ background-color: orange;
     }
 
     article {
-      background: yellow;
+      background: #ff7738;
+      width:400px;
+      height:400px;
     }
 
     footer {
-      background: green;
+      background:#548aff;
+      width:400px;
+
 
     }
 
-    img {
+    #header img {
       width:300px;
       height:350px;
       transform: rotate(90deg);
-      border:solid black 10px;
+      border:solid #ff66b5 10px;
     }
 
     .grid {
@@ -50,7 +55,7 @@ background-color: orange;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #6ad657;
   }
 
   nav li {
@@ -71,9 +76,14 @@ background-color: orange;
     background-color: #111;
   }
 #eat{
-  background-color:pink;
+  background-color:#ffdf44;
 }
-#img2{
+#two img{
+  width: 300px;
+  height: 250px;
+/*  transform:;*/
+border: solid #ff66b5 10px;
+
 
 }
     }
